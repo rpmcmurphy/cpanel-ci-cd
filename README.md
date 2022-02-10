@@ -49,7 +49,7 @@ You will have to set up the Git flow in your shared hosting Cpanel first. Basica
 
 4. Remember, you will need to set up a SSH connection with the server to pull from the private repo you just created
 
-5. Once the repo is creaed in the server (ideally create it on the same level as public_html, not inside the public folder), go to the fodler, then into .git/hooks folder and click to edit 'post-receive' file, put the below code there-
+5. Once the repo is creaed in the server (ideally create it on the same level as public_html, not inside the public folder), go to the folder, then into .git/hooks folder and click to edit 'post-receive' file, put the below code there-
     ```sh
     #!/bin/sh
 
